@@ -1,0 +1,162 @@
+>mode,zm
+>type,common
+
+#include "zm_mod.class"
+sound,zm_mod
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+rawfile,dummy.cfg
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//scripts
+
+scriptparsetree,scripts/zm/zm_moon_digger.gsc
+
+scriptparsetree,scripts/zm/_zm_ai_astro.gsc
+scriptparsetree,scripts/zm/_zm_pack_a_punch.gsc
+scriptparsetree,scripts/zm/zm_theater_quad.gsc
+scriptparsetree,scripts/zm/_zm_perk_widows_wine.gsc
+scriptparsetree,scripts/zm/_zm_perk_widows_wine.csc
+scriptparsetree,scripts/zm/_zm_perk_widows_wine.gsh
+scriptparsetree,scripts/zm/gametypes/_clientids.gsc
+scriptparsetree,scripts/zm/_zm_weap_bouncingbetty.gsc
+scriptparsetree,scripts/zm/gametypes/_weapons.gsc
+scriptparsetree,scripts/zm/_zm_powerup_double_points.csc
+scriptparsetree,scripts/zm/_zm_powerup_nuke.gsc
+scriptparsetree,scripts/zm/_zm_ai_raps.gsc
+scriptparsetree,scripts/zm/_zm_powerups.gsc
+scriptparsetree,scripts/zm/template.gsc
+scriptparsetree,scripts/zm/template.csc
+scriptparsetree,scripts/zm/_zm_ai_faller.gsc
+scriptparsetree,scripts/zm/_load.gsc
+scriptparsetree,scripts/zm/zm_giant_teleporter.gsc
+scriptparsetree,scripts/zm/_zm_powerup_weapon_minigun.gsc
+scriptparsetree,scripts/zm/_zm_weap_annihilator.gsc
+scriptparsetree,scripts/zm/_zm_powerup_carpenter.gsc
+scriptparsetree,scripts/zm/_zm_powerup_fire_sale.gsc
+scriptparsetree,scripts/zm/_zm_trap_electric.gsc
+scriptparsetree,scripts/zm/_zm_traps.gsc
+scriptparsetree,scripts/zm/_zm_perks.gsc
+scriptparsetree,scripts/zm/_zm_perk_random.gsc
+scriptparsetree,scripts/zm/_zm_magicbox.gsc
+scriptparsetree,scripts/zm/_zm_powerup_full_ammo.gsc
+scriptparsetree,scripts/zm/_zm_ai_dogs.gsc
+scriptparsetree,scripts/zm/_zm_weap_tesla.gsc
+scriptparsetree,scripts/zm/_zm_utility.gsc
+scriptparsetree,scripts/zm/_zm_trap_fire.gsc
+scriptparsetree,scripts/zm/ugxmods_timedgp.gsc
+scriptparsetree,scripts\zm\_zm_bloodsplatter.gsc
+scriptparsetree,scripts\zm\_zm_bloodsplatter.csc
+material,mc/mtl_bloodsplatter_scripted
+
+//perk shaders
+//image, specialty_ads_zombies
+image, specialty_giant_ads_zombies
+//image, specialty_doubletap_zombies
+image, specialty_giant_doubletap_zombies
+image, specialty_blue_electric_cherry_zombies
+//image, specialty_giant_blue_electric_cherry_zombies
+//image, specialty_fastreload_zombies
+image, specialty_giant_fastreload_zombies
+image, specialty_giant_juggernaut_zombies
+//image, specialty_juggernaut_zombies
+image, specialty_giant_marathon_zombies
+//image, specialty_marathon_zombies
+image, specialty_giant_quickrevive_zombies
+//image, specialty_quickrevive_zombies
+image, specialty_giant_three_guns_zombies
+//image, specialty_three_guns_zombies
+image, specialty_giant_widows_wine_zombies
+//image, specialty_widows_wine_zombies
+
+
+// You can modify these files that are shown below for adding/removing weapons from the Mystery Box
+
+//stringtable,gamedata/weapons/zm/zm_levelcommon_weapons.csv
+stringtable,gamedata/weapons/zm/zm_asylum_weapons.csv // Verruckt
+stringtable,gamedata/weapons/zm/zm_castle_weapons.csv // Der Eisendrache
+stringtable,gamedata/weapons/zm/zm_cosmodrome_weapons.csv // Ascension
+stringtable,gamedata/weapons/zm/zm_factory_weapons.csv // The Giant
+stringtable,gamedata/weapons/zm/zm_genesis_weapons.csv // Revelations 
+stringtable,gamedata/weapons/zm/zm_island_weapons.csv // Zetsubo No Shima
+stringtable,gamedata/weapons/zm/zm_moon_weapons.csv // Moon
+stringtable,gamedata/weapons/zm/zm_prototype_weapons.csv // Nacht Der Untoten
+stringtable,gamedata/weapons/zm/zm_stalingrad_weapons.csv // Gorod Krovi
+stringtable,gamedata/weapons/zm/zm_sumpf_weapons.csv // Shi No Numa
+stringtable,gamedata/weapons/zm/zm_temple_weapons.csv // Shangri La
+stringtable,gamedata/weapons/zm/zm_theater_weapons.csv // Kino Der Toten
+stringtable,gamedata/weapons/zm/zm_tomb_weapons.csv // Origins
+stringtable,gamedata/weapons/zm/zm_zod_weapons.csv // Shadows Of Evil
+
+//////////////////////////////////////////////////////////
+//		T8 - Great War Characters - Kingslayer Kyle.	//
+//////////////////////////////////////////////////////////
+//xmodel,c_zom_der_dempsey_mpc_fb
+//xmodel,c_zom_der_dempsey_viewhands
+//xmodel,c_zom_der_dempsey_viewlegs
+//xmodel,c_zom_der_nikolai_mpc_fb
+//xmodel,c_zom_der_nikolai_viewhands
+//xmodel,c_zom_der_nikolai_viewlegs
+//xmodel,c_zom_der_richtofen_mpc_fb
+//xmodel,c_zom_der_richtofen_viewhands
+//xmodel,c_zom_der_richtofen_viewlegs
+//xmodel,c_zom_der_takeo_mpc_fb
+//xmodel,c_zom_der_takeo_viewhands
+//xmodel,c_zom_der_takeo_viewlegs
+
+
+//Frost Iceforge's custom eye color
+fx,frost_iceforge/red_zombie_eyes.efx
+fx,frost_iceforge/orange_zombie_eyes.efx
+fx,frost_iceforge/green_zombie_eyes.efx
+fx,frost_iceforge/blue_zombie_eyes.efx
+fx,frost_iceforge/purple_zombie_eyes.efx
+fx,frost_iceforge/pink_zombie_eyes.efx
+fx,frost_iceforge/white_zombie_eyes.efx
+
+//Ray Gun Rework for Black Ops 3, by Smurphy.
+weapon,ray_gun_upgraded_zm
+weapon,ray_gun_zm
+
+//Round Numbers 
+
+image,uie_t7_zm_hud_rnd_nmbr0
+image,uie_t7_zm_hud_rnd_nmbr0_act
+image,uie_t7_zm_hud_rnd_nmbr0_glow
+image,uie_t7_zm_hud_rnd_nmbr1
+image,uie_t7_zm_hud_rnd_nmbr1_act
+image,uie_t7_zm_hud_rnd_nmbr1_glow
+image,uie_t7_zm_hud_rnd_nmbr2
+image,uie_t7_zm_hud_rnd_nmbr2_act
+image,uie_t7_zm_hud_rnd_nmbr2_glow
+image,uie_t7_zm_hud_rnd_nmbr3
+image,uie_t7_zm_hud_rnd_nmbr3_act
+image,uie_t7_zm_hud_rnd_nmbr3_glow
+image,uie_t7_zm_hud_rnd_nmbr4
+image,uie_t7_zm_hud_rnd_nmbr4_act
+image,uie_t7_zm_hud_rnd_nmbr4_glow
+image,uie_t7_zm_hud_rnd_nmbr5
+image,uie_t7_zm_hud_rnd_nmbr5_act
+image,uie_t7_zm_hud_rnd_nmbr5_glow
+image,uie_t7_zm_hud_rnd_nmbr6
+image,uie_t7_zm_hud_rnd_nmbr6_act
+image,uie_t7_zm_hud_rnd_nmbr6_glow
+image,uie_t7_zm_hud_rnd_nmbr7
+image,uie_t7_zm_hud_rnd_nmbr7_act
+image,uie_t7_zm_hud_rnd_nmbr7_glow
+image,uie_t7_zm_hud_rnd_nmbr8
+image,uie_t7_zm_hud_rnd_nmbr8_act
+image,uie_t7_zm_hud_rnd_nmbr8_glow
+image,uie_t7_zm_hud_rnd_nmbr9
+image,uie_t7_zm_hud_rnd_nmbr9_act
+image,uie_t7_zm_hud_rnd_nmbr9_glow
+
+//healthbar 
+
+scriptparsetree,scripts/zm/_zm_healthbar.gsc
+scriptparsetree,scripts/zm/_zm_healthbar.csc
+image,health_bar_black
+image,health_bar_gradient
+rawfile,UI/ZMHealthBar.lua
+rawfile,UI/HUDInject/HUDInject.lua
+rawfile,UI/Utils.lua
+
