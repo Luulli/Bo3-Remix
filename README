@@ -1,0 +1,124 @@
+Luulli's Remix 1.32
+
+General:
+Legacy round numbers
+Spawn with RK5 super ee
+Insta kill rounds begin at 69 and happen every other round
+Timer and zombie counter on HUD
+Health bar
+Bloodsplatter
+
+Enemies:
+Red eyed zombies
+Zombie speed multiplier matches older games
+health cap at R40
+Zombie spawn delay is now set to 1 (except moon)
+Zombie spawn delay is set to 0.08 at round 50
+Same amount of Zombies in COOP as Solo
+Zombies per round capped at 296 (round 55)
+Faller zombies now only hang from the roof for 1s (down from 20)
+Fixed Special Rounds- TG, SNN, Kino (5,9,13,17,21,25,29...)
+Buffed dog health
+Increased dog count +4
+increased dogs on the map from 2 per player to 4 per player
+
+
+Powerups:
+Firesales drop from round 5 and stop after the box is moved for the first time
+Carpenter removed from zombies drops
+Death machines added to cycle at 50
+Nukes kill speed 0.1 - 0.2 sec
+Bo4 Max ammo
+
+
+Weapons:
+Explosive damage increased
+Weighted box RNG (14 base maps & COTD)
+All players can have wonder weapons
+Waffe kills a max of 18 zombies per shot
+Raygun MK1 buff and extra animations with classic FX by Smurphy
+Increased movement speed with Raygun
+Trip mines will always kill zombies (1 - 2 mines)
+Removed attachments from DLC weapons
+Removed Wall weapons from the box on each map
+
+Perks:
+Jugg guaranteed first perk bottle
+Stamin-up guaranteed second perk bottle
+Mulekick gives armamental accomplishment
+Speedcola gives Timeslip (Box, PAP, Wunderfizz)
+Deadshot gives always done swiftly
+Deadshot 2x headshot multiplier
+Widows Wine now gives explosive immunity (shang doesnt work)
+Widows wine no longer activates on hit
+Widows grenades can be bought at a grenade wall buy
+Stamin-up gives firing on all cylinders (MG08 lol)
+
+Traps:
+Electric trap cooldown = 25s (down from 60)
+Fire trap cooldown = 30s (down from 60)
+Rotating traps = 45s (up from 30)
+Rotating traps cooldown = 25s (down from 40)
+
+Maps:
+SOE:
+- Apothicon in box
+- Bootlegger costs 1250
+
+DE:
+- Wrath of the Ancients in box
+
+ZNS:
+- KT4 in box
+- PAP KT4 for Masemune
+
+GK:
+- Gauntlet in box
+
+Rev:
+- Cannot have Tgun & apothicon at one time
+trade table? ^^
+
+Nacht:
+- Locus costs 1500
+
+Verruckt:
+- Bootlegger costs 1250
+- MP40 costs 1000
+- STG44 costs 1250
+
+Shino:
+- MP40 costs 1000
+- STG44 costs 1250
+
+Kino:
+- MP40 costs 1000
+- Removed Nova Crawlers
+
+Moon:
+- Removed Excavators (rip EE)
+- Removed Astronaut
+- QED has higher chance of giving free perks
+
+Modvar:
+/modvar (command) <int>
+change_round <int> - changes the round
+speed <int> - zombie speed multiplier (waw-bo2 - 8, Bo3 - 4)
+delay 1 - zombie spawn delay set to 0
+timed 1 - timed gameplay
+zcap <int> - zombie on map cap (max 64)
+health 1 - 1 hit
+health 2 - 2 hit
+points <int> = <int> starting points
+fog 1 = no fog
+perk <int> - perk limit
+
+
+Credit-
+Health bar - MikeyRay
+Round Numbers - Ronan
+Red eyes - Frost Ice forge
+Ray gun rework - Smurphy
+Bloodsplatter - Scobalula
+Timed gameplay - UGX
+Perk Shader - Jumpy
