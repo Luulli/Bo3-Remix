@@ -1,0 +1,3 @@
+These stringtables were ripped using Scobalula's new HydraX tool.
+
+Major Credits to him!!!!!

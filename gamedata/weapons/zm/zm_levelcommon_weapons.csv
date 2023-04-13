@@ -1,0 +1,57 @@
+weapon_name,upgrade_name,hint,cost,weaponVO,weaponVOresp,ammo_cost,create_vox,obsolete_false,in_box,upgrade_in_box,is_limited,limit,upgrade_limit,obsolete2_false,wallbuy_autospawn,class,is_aat_exempt,is_wonder_weapon,force_attachments
+
+bouncingbetty,,,1000,betty,,,,,FALSE,FALSE,FALSE,,,FALSE,TRUE,grenade,,,
+cymbal_monkey,,,2000,monkey,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,grenade,,,
+octobomb,octobomb_upgraded,,2000,octobomb,,0,,,TRUE,FALSE,FALSE,,,FALSE,FALSE,grenade,,,
+frag_grenade,,,250,grenade,,250,,,FALSE,FALSE,FALSE,,,FALSE,TRUE,grenade,,,
+knife,,,0,,,0,,,FALSE,FALSE,,,,FALSE,FALSE,special,,,
+bowie_knife,,,3000,wpck_bowie,,,,,FALSE,FALSE,,,,FALSE,FALSE,special,,,
+zod_riotshield,zod_riotshield_upgraded,,500,,,,,,FALSE,FALSE,FALSE,,,FALSE,TRUE,special,TRUE,,
+hero_gravityspikes_melee,hero_gravityspikes_melee,,500,,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,special,TRUE,,
+hero_annihilator,hero_annihilator,,500,,,,,,FALSE,FALSE,FALSE,,,FALSE,TRUE,special,TRUE,,
+frag_grenade_potato_masher,,,250,grenade,,250,,,FALSE,FALSE,FALSE,,,FALSE,TRUE,grenade,,,
+sickle_knife,,,3000,wpck_bowie,,,,,FALSE,FALSE,,,,FALSE,FALSE,special,,,
+
+ray_gun,ray_gun_upgraded,,10000,wpck_ray,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,special,TRUE,TRUE,
+raygun_mark3,raygun_mark3_upgraded,,10000,ray3,,0,,,TRUE,FALSE,TRUE,1,,FALSE,FALSE,special,TRUE,TRUE,
+tesla_gun,tesla_gun_upgraded,,10000,tesla,,,,,TRUE,FALSE,TRUE,1,,FALSE,TRUE,special,TRUE,TRUE,
+thundergun,thundergun_upgraded,,10000,thundergun,,,,,TRUE,FALSE,TRUE,1,,FALSE,TRUE,special,TRUE,TRUE,
+raygun_mark2,raygun_mark2_upgraded,,10000,ray2,,0,,,TRUE,FALSE,TRUE,1,,FALSE,FALSE,special,TRUE,TRUE,
+
+ar_accurate,ar_accurate_upgraded,,1500,rifle,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,rifle,,,reddot fastreload
+ar_cqb,ar_cqb_upgraded,,1600,rifle,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,rifle,,,reddot fastreload
+ar_damage,ar_damage_upgraded,,5000,rifle,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,rifle,,,reddot fastreload
+ar_longburst,ar_longburst_upgraded,,1500,rifle,,,,,FALSE,FALSE,FALSE,,,FALSE,TRUE,rifle,,,reddot fastreload
+ar_marksman,ar_marksman_upgraded,,500,rifle,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,rifle,,,reddot fastreload
+ar_standard,ar_standard_upgraded,,1400,rifle,,,,,FALSE,FALSE,FALSE,,,FALSE,TRUE,rifle,,,reddot fastreload
+
+lmg_cqb,lmg_cqb_upgraded,,5000,lmg,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,lmg,,,reddot fastreload
+lmg_heavy,lmg_heavy_upgraded,,5000,lmg,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,lmg,,,reddot fastreload
+lmg_light,lmg_light_upgraded,,5000,lmg,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,lmg,,,reddot fastreload
+lmg_slowfire,lmg_slowfire_upgraded,,5000,lmg,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,lmg,,,reddot fastreload
+lmg_mg08,lmg_mg08_upgraded,,5000,lmg,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,lmg,,,
+
+pistol_revolver38,pistol_revolver38_upgraded,,50,pistol,,0,,,FALSE,FALSE,TRUE,0,,FALSE,FALSE,pistol,TRUE,,
+pistol_standard,pistol_standard_upgraded,,50,pistol,,0,,,FALSE,FALSE,TRUE,0,,FALSE,FALSE,pistol,TRUE,,
+pistol_burst,pistol_burst_upgraded,,500,pistol,,,,,FALSE,FALSE,FALSE,,,FALSE,TRUE,pistol,,,reddot fastreload
+pistol_fullauto,pistol_fullauto_upgraded,,750,pistol,,,,,FALSE,FALSE,FALSE,,,FALSE,TRUE,pistol,,,reddot fastreload
+pistol_shotgun_dw,pistol_shotgun_dw_upgraded,,1500,pistol,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,pistol,,,
+
+shotgun_fullauto,shotgun_fullauto_upgraded,,5000,shotgun,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,shotgun,,,reddot fastreload
+shotgun_precision,shotgun_precision_upgraded,,1100,shotgun,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,shotgun,,,reddot fastreload
+shotgun_pump,shotgun_pump_upgraded,,750,shotgun,,,,,FALSE,FALSE,FALSE,,,FALSE,TRUE,shotgun,,,reddot fastreload
+shotgun_semiauto,shotgun_semiauto_upgraded,,5000,shotgun,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,shotgun,,,reddot fastreload
+shotgun_olympia,shotgun_olympia_upgraded,,750,shotgun,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,shotgun,,,
+
+
+
+smg_burst,smg_burst_upgraded,,700,smg,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,smg,,,reddot fastreload
+smg_capacity,smg_capacity_upgraded,,5000,smg,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,smg,,,reddot fastreload
+smg_fastfire,smg_fastfire_upgraded,,1250,smg,,,,,FALSE,FALSE,FALSE,,,FALSE,TRUE,smg,,,reddot fastreload
+smg_standard,smg_standard_upgraded,,1250,smg,,,,,FALSE,FALSE,FALSE,,,FALSE,TRUE,smg,,,reddot fastreload
+smg_versatile,smg_versatile_upgraded,,1300,smg,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,smg,,,reddot fastreload
+
+
+sniper_fastbolt,sniper_fastbolt_upgraded,,5000,sniper,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,sniper,,,
+sniper_fastsemi,sniper_fastsemi_upgraded,,5000,sniper,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,sniper,,,
+sniper_powerbolt,sniper_powerbolt_upgraded,,5000,sniper,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,sniper,,,
